@@ -1,0 +1,93 @@
+<%- include("partials/header") -%>
+
+<section id="contact-content">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-lg-6">
+        <img src="http://www.szalajda-organy.pl/img/contact.jpg" alt="contact-image">
+      </div>
+
+      <div class="col-lg-6">
+        <div class="row contact-adress">
+          <div class="col-lg-3">
+            <i class="icon-location"></i>
+          </div>
+          <div class="col-lg-9">
+            <h3 class="contact-adress">
+              <b>Tomasz Szałajda</b></br>
+              Wejherowo</br>
+              woj. pomorskie</br>
+            </h3>
+          </div>
+        </div>
+        <div class="row  contact-adress">
+          <div class="col-lg-3">
+            <i class="icon-mobile"></i>
+          </div>
+          <div class="col-lg-9">
+            <h3 class="contact-adress">
+
+              <div id="number" data-toggle="tooltip" data-placement="top" title="Pokaż numer" data-last="+48 503 322 092"><span><button class="hide-value">pokaż numer</button></span></div>
+            </h3>
+          </div>
+        </div>
+        <div class="row  contact-adress">
+          <div class="col-lg-3">
+            <i class="icon-mail"></i>
+          </div>
+          <div class="col-lg-9">
+            <h3 class="contact-adress">
+              <div id="email" data-toggle="tooltip" data-placement="top" title="Pokaż email" data-last="organova@wp.pl"><span><button class="hide-value">pokaż email</button></span></div>
+            </h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d73942.3059596606!2d18.181085866667882!3d54.609329199032274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46fdba295e757655%3A0x27fe1a3923cf6cc7!2sWejherowo%2C%20Polska!5e0!3m2!1spl!2sis!4v1590682262986!5m2!1spl!2sis" width="850" height="260" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+  </div>
+  <div class="container">
+    <h2 class="contact-form-header">Formularz kontaktowy</h2>
+    <div class="form-row">
+      <div class="col-lg-4">
+        <form action="/kontakt" method="POST" class="needs-validation contact-form" novalidate>
+          <div class="form-group input-group-lg">
+            <input type="text" class="form-control" id="full-name" name="imie-nazwisko" placeholder="Imię i nazwisko" required>
+            <div class="invalid-feedback">
+              Proszę wpisać imię i nazwisko.
+            </div>
+          </div>
+          <div class="form-group input-group-lg">
+            <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com" required>
+            <div class="invalid-feedback">
+              Proszę wpisać swój adres e-mail.
+            </div>
+          </div>
+          <div class="form-group input-group-lg">
+            <input type="text" class="form-control" id="topic" name="temat" placeholder="Temat" required>
+            <div class="invalid-feedback">
+              Proszę wpisać temat.
+            </div>
+          </div>
+      </div>
+
+      <div class="col-lg-8">
+        <div class="form-group input-group-lg">
+          <textarea class="form-control" id="message" name="wiadomosc" placeholder="Treść" required></textarea>
+          <div class="invalid-feedback">
+            Proszę wpisać treść wiadomości.
+          </div>
+        </div>
+      </div>
+      <button type="submit" class="btn btn-outline-* btn-lg contact-button">WYŚLIJ</button>
+
+      </form>
+    </div>
+  </div>
+
+</section>
+<%- include("referencje") -%>
+
+<%- include("partials/footer") -%>

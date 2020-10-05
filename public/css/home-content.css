@@ -1,0 +1,158 @@
+#home-content {
+  background-color: #e7b868;
+  margin-bottom: 0;
+  padding-bottom: 40px;
+}
+
+#home-content.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+
+.welcome {
+  text-align: center;
+  padding-top: 50px;
+  color: #630303;
+}
+
+.welcome h2 {
+  font-size: 3rem;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-transform: uppercase;
+}
+
+.welcome h4 {
+  padding-bottom: 60px;
+  margin-left: 100px;
+  margin-right: 100px;
+  line-height: 2;
+}
+
+/* HOME PAGE CAROUSEL */
+.home-page-carousel {
+  width: 100%;
+  margin: 0;
+  padding-top: 80px;
+  text-align: center;
+}
+
+.home-page-carousel.container {
+  width: 50%;
+  height: 0;
+  padding-top: 48%;
+  position: relative;
+}
+
+#home-content .carousel {
+  width: 100%;
+  margin: 0px auto;
+  padding-bottom: 100px;
+}
+
+#home-content .slick-slide {
+  margin: 0;
+  width: 60vw;
+  box-sizing: border-box;
+  position: relative;
+}
+
+#home-content .slick-slide img {
+  width: 100% !important;
+  -webkit-filter: blur(3px);
+  /* Safari 6.0 - 9.0 */
+  filter: blur(3px);
+}
+
+#home-content .slick-current img {
+  -webkit-filter: blur(0);
+  /* Safari 6.0 - 9.0 */
+  filter: blur(0);
+}
+
+/* END HOME PAGE CAROUSEL */
+.parallelogram {
+  width: 280px;
+  height: 90%;
+  background: #e7b868;
+  transform: skew(160deg);
+  position: absolute;
+  z-index: 2;
+  right: 300px;
+  /* clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%); */
+}
+
+.parallelogram h5 {
+  color: #630303;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.3rem;
+  text-align: left;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+.line-between-text {
+  border-top: 2px #c7891f solid;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 1090px) {
+  .parallelogram {
+    height: 60%;
+    right: 250px;
+  }
+
+  .parallelogram h5 {
+    font-size: 1rem;
+    margin-top: 25px;
+  }
+
+  .line-between-text {
+    margin-top: 15px;
+  }
+}
+
+@media screen and (max-width: 699px) {
+  .welcome h2 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  .parallelogram {
+    width: 200px;
+    height: 40%;
+    left: 320px;
+  }
+
+  .parallelogram h5 {
+    font-size: 0.7rem;
+    margin-top: 5px;
+  }
+
+  .line-between-text {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .parallelogram {
+    width: 180px;
+    height: 40%;
+    left: 0;
+  }
+
+  .parallelogram h5 {
+    font-size: 0.8rem;
+    margin-top: 18px;
+  }
+
+  .line-between-text {
+    margin-top: 0;
+    display: none;
+  }
+}

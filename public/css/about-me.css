@@ -1,0 +1,73 @@
+.card-text {
+  margin-top: 15px;
+  font-size: 1.3rem;
+  text-align: justify;
+  color: #333333;
+}
+
+.card {
+  box-shadow: none;
+  border: none!important;
+}
+
+.card-space {
+  margin-bottom: 100px;
+}
+
+.mb-3.card {
+  margin-bottom: 4rem !important;
+  background-color: rgb(231, 184, 104);
+}
+
+.right-border {
+  width: 70%;
+  border-bottom: 2px solid #695f52;
+  display: inline-block;
+}
+
+.right-border {
+  border-image: linear-gradient(90deg, #1a9790, #f2f2f2) 1;
+}
+
+.img-1
+{
+  clip-path: polygon(0 0, 100% 0, 74% 100%, 0% 100%);
+
+}
+
+.img-2
+{
+  clip-path: polygon(26% 0, 100% 0, 100% 100%, 0% 100%);
+
+}
+
+#content
+{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+#content p
+{
+  color: #630303;
+}
+
+@media screen and (max-width: 991px){
+
+  .img-1{
+  clip-path: circle(35% at 50% 50%);
+/* width: 80%!important; */
+}
+.img-2
+{
+  clip-path: circle(35% at 50% 50%);
+    /* width: 80%!important; */
+}
+.change-place1
+{
+  order: 2;
+}
+.change-place2{
+  order: 1;
+}
+}

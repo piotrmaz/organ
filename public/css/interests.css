@@ -1,0 +1,295 @@
+#interests-content .container {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#interests-content .btn {
+  color: #630303;
+  text-align: left;
+}
+
+#interests-content .card {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+#organ-records {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+#organ-records h1, h2, h3, h4, h6, p, li {
+  color: #630303;
+  line-height: 2;
+}
+
+#organ-records h3 {
+  font-size: 1.8rem;
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+
+#organ-records p, li {
+  font-size: 1.1rem;
+}
+
+.title-organ-records {
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.yt-video {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+#interests-content .modal-body
+{
+  padding: 0!important;
+}
+
+.pdf-mobile
+{
+  display: none;
+}
+
+.krippen-jagiello {
+  text-align: center;
+}
+.krippen-modal-img-haeder
+{
+  color:  #630303;
+  margin-top: 25px;
+  margin-bottom: 35px;
+}
+
+
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+/* audioplayer */
+.title-audioplayer {
+  color: #630303;
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+}
+#audioplayer {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+@media only screen and (max-width: 1199px) {
+  #audioplayer {
+    margin: 0;
+  }
+}
+@media only screen and (max-width: 991px) {
+  #organ-records
+  {
+    margin: 0;
+  }
+  .playlist li {
+    font-size: 1rem;
+  }
+
+  .top-player-controls {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .cover {
+    margin-left: auto !important;
+    margin-right: auto;
+  }
+
+  .playlist {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (max-width: 767px)
+{
+  #audioplayer {
+    margin: -70px;
+    transform: scale(0.7);
+  }
+  .title-audioplayer
+  {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .pelplin-pdf
+  {
+    display: none;
+  }
+  .pdf-mobile
+  {
+    display: block;
+  }
+  .mariacka-gda-pdf
+  {
+    display: none;
+  }
+  iframe
+  {
+    width: 100%;
+  }
+  #krippen{
+    width: 100%;
+  }
+  .playlist
+  {
+    display: none;
+  }
+}
+
+.top-player-controls {
+  text-align: center;
+  background-color: #d4d4d4;
+  width: 430px;
+  border-radius: 0 0 5px 5px;
+}
+
+.hidden {
+  display: none;
+}
+
+.visible {
+  display: inherit;
+}
+
+.player {
+  padding: 0 !important;
+}
+
+.cover {
+  border-radius: 5px 5px 0 0;
+  height: 385px;
+  width: 430px;
+  margin-left: 0;
+}
+
+.tracker {
+  background-color: #630303;
+  height: 5px;
+  margin-bottom: 5px;
+}
+
+.duration {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  color: #630303;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 40%;
+  height: 5px;
+  border-radius: 5px;
+  background: #8c8c8c;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #630303;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #630303;
+  cursor: pointer;
+}
+
+.icon-volume-up {
+  position: relative;
+  font-size: 16px;
+  margin-right: 10px;
+  color: #630303;
+  top: 5px;
+}
+
+.title {
+  font-weight: bold;
+  color: #630303;
+  padding-left: 40px !important;
+  padding-right: 40px !important;
+}
+
+.artist {
+  color: #630303;
+  margin-bottom: 10px;
+}
+
+.controls {
+  padding-left: 25px;
+}
+
+.play-button, .pause-button {
+  font-size: 2.5rem!important;
+  color: #630303;
+  background-color: rgb(250, 82, 82, 0.5);
+  border-radius: 100%;
+  padding: 10px;
+  cursor: pointer;
+  transition: 0.6s;
+}
+
+.play-button:hover, .pause-button:hover {
+  background-color: rgb(250, 82, 82, 0.8);
+}
+
+.rew-button, .fwd-button {
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 1.5rem;
+  color: #630303;
+  padding: 5px;
+  background-color: rgb(250, 82, 82, 0.5);
+  border-radius: 100%;
+  cursor: pointer;
+  transition: 0.6s;
+}
+
+.rew-button:hover, .fwd-button:hover {
+  transform: scale(1.1);
+  background-color: rgb(250, 82, 82, 0.8);
+}
+
+.playlist {
+  background-color: #d4d4d4;
+  border-radius: 5px 5px 5px 5px;
+  list-style-type: none;
+  margin-bottom: 0;
+  padding: 25px 0 0 25px !important;
+}
+
+.playlist li {
+  color: #ad0505;
+  cursor: pointer;
+  line-height: 2.5;
+}
+
+.playlist li.active {
+  font-weight: bold;
+  color: #630303;
+}

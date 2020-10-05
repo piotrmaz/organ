@@ -1,0 +1,163 @@
+body {
+  font-family: 'EB Garamond', serif !important;
+  background-color: #e7b868 !important;
+}
+
+#header {
+  font-family: 'Marcellus SC', serif;
+  color: black;
+  text-align: center;
+  padding-bottom: 50px;
+  /* The image used */
+  background-image: url("http://www.szalajda-organy.pl/img/background2.jpg");
+  /* Set a specific height */
+  min-height: 500px;
+  /* Create the parallax scrolling effect */
+  /* background-attachment: fixed;
+  background-position: right;
+  background-repeat: no-repeat; */
+  background-size: cover;
+}
+
+.logo {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.first-row-title {
+  font-size: 3.8rem;
+  font-weight: bolder;
+  letter-spacing: 5px;
+  color: #eee;
+}
+
+.second-row-title {
+  font-size: 2.8rem;
+  color: #eee;
+}
+
+.navbar {
+  background-color: #630303;
+  margin-top: 0;
+}
+
+.nav-link {
+  font-size: 1.8rem;
+  margin-left: 30px;
+  color: #e7b868!important;
+  transition: 0.5s all;
+}
+
+.nav-link:hover
+{
+  color: #e3ad4f!important;
+  transform: scale(0.9);
+}
+.active .nav-link{
+  text-decoration: overline;
+  color: #eecc91!important;
+  font-size: 1.9rem;
+}
+
+.active .nav-link:hover
+{
+  color: #e7b868!important;
+  transform: none;
+}
+
+.sticky
+{
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 123;
+}
+
+#footer {
+  position: relative;
+  z-index: 3;
+  font-family: 'Marcellus SC', serif;
+  margin-top: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  color: #000;
+  background-color: #630303;
+  letter-spacing: 5px;
+  color: #ddd;
+}
+
+#footer h5 {
+  display: inline;
+  margin-right: 20px;
+}
+
+.footer-logo {
+  margin-bottom: 25px;
+  margin-right: 20px;
+}
+
+.icon-facebook-rect {
+  color: #ddd;
+  font-size: 2.5rem;
+}
+
+.icon-facebook-rect:hover {
+  color: #3b5998 !important;
+}
+
+.author
+{
+  margin-top: 20px;
+  font-size: 0.7rem;
+}
+#reference .img-modal {
+  width: 500px !important;
+  height: 800px !important;
+}
+
+@media screen and (max-width: 991px) {
+  .navbar-nav {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  #header {
+    min-height: 400px;
+    background-image: url("../img/background2-mobile.jpg");
+  }
+
+  #header img {
+    width: 50%;
+  }
+
+  .first-row-title {
+    font-size: 1.1rem;
+	text-shadow: 3px 0 5px #ddd;
+  }
+
+  .second-row-title {
+    font-size: 2rem;
+	text-shadow: 3px 0 5px #ddd;
+  }
+
+  .top-footer {
+    /* transform: scale(0.5); */
+    font-size: 0.5rem;
+  }
+
+  .footer-logo {
+    margin-bottom: 0;
+    transform: scale(0.6);
+  }
+
+  .icon-facebook-rect {
+    font-size: 1.3rem;
+  }
+
+  .author
+  {
+    font-size: 0.5rem;
+  }
+}

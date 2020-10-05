@@ -1,0 +1,68 @@
+#reference .carousel-item
+{
+  width: 700px!important;
+  margin-left: 80px!important;
+}
+
+#reference img
+{
+  width: 100%!important;
+}
+
+#reference .carousel-control-prev {
+  /* margin-left: -155px;
+  border-radius: 100%;
+  height: 13%; */
+  width: 30px;
+  height: 30px;
+  margin-top: auto;
+  margin-bottom: auto;
+  position: fixed;
+  left: 50px;
+}
+
+#reference .carousel-control-next {
+  /* margin-right: -155px;
+  border-radius: 100%;
+  height: 13%; */
+  width: 30px;
+  height: 30px;
+  margin-top: auto;
+  margin-bottom: auto;
+  position:fixed;
+  right: 50px;
+}
+
+#reference a {
+  background-color: #630303;
+}
+
+@media screen and (max-width: 991px)
+{
+  #reference .carousel-item
+  {
+    margin-left: 35px!important;
+  }
+  #reference img
+  {
+    width: 65%!important;
+  }
+
+  .carousel-control-prev
+  {
+    background-color: #000;
+  }
+  .carousel-control-next
+  {
+    background-color: #000;
+  }
+}
+
+@media screen and (max-width: 599px)
+{
+  #reference .carousel-item
+  {
+    margin-left: 10px!important;
+
+  }
+}
